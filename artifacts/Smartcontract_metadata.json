@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.1+commit.e6f7d5a4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Svar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "person1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variables.sol": "Smartcontract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variables.sol": {
+			"keccak256": "0xb70fe37b2635116e44105ef6be9e0ed61177819c81c10cd1cc0f3b3fb9a5779e",
+			"urls": [
+				"bzz-raw://f5494cdbe63f24260eba45e1115aa00948ee22aad3db86b96407f72037d52665",
+				"dweb:/ipfs/QmSDJNnm4uhyiDWoGKJ9JwDwozU2cvgtADxana58NbP2wd"
+			]
+		}
+	},
+	"version": 1
+}
